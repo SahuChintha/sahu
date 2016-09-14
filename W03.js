@@ -12,7 +12,6 @@ var App = {
     App.calculateArea();
     App.estimateCount();
     App.showExample();
-
   },
   getFirstName: function () {
     let answer = prompt("What is your first name", "Lilly");
@@ -56,6 +55,7 @@ var App = {
     alert("You could have about " + count + " sheep.");
   },
   showExample: function () {
+    document.getElementById("displayPlace").innerHTML = "";
     let totalCount = parseFloat(document.getElementById("count").innerHTML);
     for (var i = 0; i < totalCount; i++) {
       App.addImage(i);
