@@ -12,7 +12,6 @@ var App = {
     App.calculateArea();
     App.estimateCount();
     App.showExample();
-
   },
   getFirstName: function () {
     let answer = prompt("What is your first name", "Awesome");
