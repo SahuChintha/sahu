@@ -15,13 +15,13 @@ var App = {
 
   },
   getFirstName: function () {
-    let answer = prompt("What is your first name", "Lilly");
+    let answer = prompt("What is your first name", "Awesome");
     if (answer != null) {
       document.getElementById("first").innerHTML = answer;
     }
   },
   getLastName: function () {
-    let answer = prompt("What is your last name", "Case");
+    let answer = prompt("What is your last name", "Lilly");
     if (answer != null) {
       document.getElementById("last").innerHTML = answer;
     }
